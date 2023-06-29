@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- GENERAL -->
+    <string name="btn_red_level_selector">btn_red_level_selector</string>
+    <string name="btn_red_restart">btn_red_restart</string>
+
+    <!-- DIALOG WINNER -->
+    <string name="elapsed_time">⏱ %s</string>
+    <string name="record_time">Record %s</string>
+    <string name="min_sec">%02d:%02d</string>
+    <string name="new_record">NEW RECORD !</string>
+    <string name="try_again">TRY AGAIN ?</string>
+    <string name="btn_red_next_level">btn_red_next_level</string>
+
+    <!-- DIALOG RETRY -->
+    <string name="remaining_totems">x%02d</string>
+    <string name="btn_retry">btn_retry</string>
+    <string name="extra_tries">%d</string>
+    <string name="plus">+</string>
+
+    <string name="watch_video">WATCH VIDEO\nx%d Tries</string>
+    <string name="loading_video_message">Loading Video...</string>
+    <string name="loading_failed_message">Video cannot be played\nTry again later</string>
+
+    <!-- DIALOG SETTINGS -->
+    <string name="dialog_accept">Accept</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_save">save</string>
+
+    <!-- DIALOG WORLD SELECTOR -->
+    <string name="level_title">Level %d</string>
+    <string name="world_number">World %d</string>
+    <string name="world_item_background">world_item_background</string>
+
+    <!-- IMAGE VIEW DESCRIPTIONS -->
+    <string name="red_square_image_description">Red Square Image</string>
+    <string name="retry_button_description">retry button</string>
+    <string name="cancel_settings">Cancel settings</string>
+    <string name="save_settings">Save settings</string>
+
+</resources>

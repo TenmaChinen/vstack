@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="horizontal"
+	android:paddingStart="5dp">
+
+	<TextView
+		android:id="@+id/tv_label_list_item"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|start"
+		android:layout_weight="1"
+		android:textColor="@android:color/white"
+		android:textSize="16sp"
+		tools:text="Item" />
+
+	<com.softramen.switchCom.SwitchCom
+		android:id="@+id/switch_settings_list_item"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		app:trackColorActive="@color/switch_track_active"
+		app:trackColorInactive="@color/switch_track_inactive"
+		android:padding="15dp"
+		app:switchHeight="24dp" />
+
+</LinearLayout>

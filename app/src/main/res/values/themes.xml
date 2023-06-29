@@ -1,0 +1,44 @@
+<resources>
+	<!-- Base application theme. -->
+	<style name="Theme.Vstack" parent="Theme.AppCompat.NoActionBar">
+		<!-- Primary brand color. -->
+		<item name="colorPrimary">@color/purple_500</item>
+
+		<item name="android:windowFullscreen">true</item>
+        <item name="fontFamily">@font/connection</item>
+        <item name="android:fontFamily">@font/connection</item>
+        <item name="android:windowAnimationStyle">@style/ActivityFadeAnimation</item>
+
+	</style>
+
+	<style name="TextViewBaseStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowColor">@color/white</item>
+        <item name="android:shadowRadius">8</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="ActivityFadeAnimation" parent="">
+
+        <!--  When opening a new activity, this is the animation that is
+         run on the next activity (which is entering the screen). -->
+        <item name="android:activityOpenEnterAnimation">@anim/anim_window_fade_in</item>
+
+        <!--  When opening a new activity, this is the animation that is
+              run on the previous activity (which is exiting the screen). -->
+        <item name="android:activityOpenExitAnimation">@anim/anim_window_fade_out</item>
+
+        <!--  When closing the current activity, this is the animation that is
+              run on the next activity (which is entering the screen). -->
+        <item name="android:activityCloseEnterAnimation">@anim/anim_window_fade_in</item>
+
+        <!--  When closing the current activity, this is the animation that is
+              run on the current activity (which is exiting the screen). -->
+        <item name="android:activityCloseExitAnimation">@anim/anim_window_fade_out</item>
+
+    </style>
+
+</resources>

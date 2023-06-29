@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="IntroWidgetCustomTheme" parent="@style/IntroWidgetTheme">
+        <item name="infoBackgroundColor">@color/text_intro_widget</item>
+        <item name="infoTextColor">@android:color/white</item>
+        <item name="infoTextStyle">bold</item>
+    </style>
+
+</resources>

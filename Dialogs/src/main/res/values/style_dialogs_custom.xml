@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="DialogNullWindowAnimationStyle">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+
+    <!--    <style name="DialogBaseStyle" parent="@android:style/Theme.Dialogs">-->
+    <style name="DialogBaseStyle" parent="@android:style/Theme.DeviceDefault.Dialog.MinWidth">
+<!--    <style name="DialogBaseStyle" parent="Theme.AppCompat.Dialog">-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="DialogSettingsListViewStyle" parent="android:Widget.DeviceDefault.ListView">
+        <item name="divider">@color/black</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="DialogTextView">
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowColor">@color/white</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+</resources>

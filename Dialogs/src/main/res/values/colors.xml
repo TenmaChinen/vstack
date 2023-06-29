@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#3F393F</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#E4E4E4</color>
+
+    <color name="lime">#64EE6A</color>
+    <color name="lime_transparent">#8F64EE6A</color>
+
+    <color name="tint_disabled">#B1B1B1</color>
+
+    <color name="new_record">#9DFF98</color>
+
+<!--    <color name="dialog_overlay_solid">#99000000</color>-->
+    <color name="dialog_overlay_solid">#D9000000</color>
+    <color name="dialog_overlay_alpha">#00000000</color>
+
+</resources>

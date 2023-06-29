@@ -1,0 +1,33 @@
+<resources>
+	    <!-- MAIN SCREEN -->
+    <string name="settings_button">open settings dialog</string>
+
+    <!-- LEVEL SELECTOR -->
+    <string name="level_selector_title">LEVEL SELECTOR</string>
+    <string name="level_title">LEVEL %d</string>
+    <string name="beat_level_message">Beat Level %d</string>
+    <string name="beat_world_message">Beat World\n%s</string>
+    <string name="next_level">NEXT LEVEL</string>
+    <string name="world_number">WORLD %d</string>
+    <string name="new_world_soon_message">New World\ncoming Soon</string>
+    <string name="remaining_totems">x%02d</string>
+    <string name="level_clear">Level %d\nClear!</string>
+    <string name="next_level_unlocked">Level %d\nUnlocked!</string>
+    <string name="world_clear">%s\nClear!</string>
+    <string name="world_unlocked">%s\nUnlocked!</string>
+    <string name="button_back_to_main_screen">back to main screen</string>
+    <string name="button_next_page">next page</string>
+    <string name="button_prev_page">prev page</string>
+    <string name="totems_tile_icon_image_view">totems tile icon image view</string>
+    <string name="game_name_image">game name image</string>
+    <string name="easy_mode_icon">easy mode icon</string>
+    <string name="medium_difficulty_mode_icon">medium difficulty mode icon</string>
+    <string name="hard_difficulty_mode_icon">hard difficulty mode icon</string>
+
+    <!-- IN GAME -->
+    <string name="player_animation_image">player_animation_image</string>
+    <string name="button_game_start">Start game</string>
+    <string name="button_go_to_level_selector">Go to level selector</string>
+    <string name="button_change_difficulty_mode">change difficulty mode</string>
+    <string name="button_world_selector">Open world dropdown menu selector</string>
+</resources>

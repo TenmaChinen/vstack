@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="layered_image_view">
+        <attr name="text_image" format="reference" />
+        <attr name="text_image_height_percent" format="float" />
+    </declare-styleable>
+</resources>

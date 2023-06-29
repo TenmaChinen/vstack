@@ -1,0 +1,13 @@
+<resources>
+    <!--  Global  -->
+    <dimen name="ad_banner_height">60dp</dimen>
+
+    <!--  Main Screen  -->
+    <dimen name="btn_green_width_pct">0.6</dimen>
+    <dimen name="shadow_radius_settings">5dp</dimen>
+    <dimen name="label_height_pct">0.6</dimen>
+
+    <!--  Level Selector  -->
+    <dimen name="shadow_radius_world_arrow">8dp</dimen>
+
+</resources>

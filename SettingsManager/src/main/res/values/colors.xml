@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="dark_gray">#383838</color>
+	<color name="switch_track_inactive">#505050</color>
+	<color name="switch_track_active">#5B9B5D</color>
+	<color name="option_menu_dropdown_background">#474247</color>
+	<color name="option_menu_selected_background">#2E292E</color>
+</resources>

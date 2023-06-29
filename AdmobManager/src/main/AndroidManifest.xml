@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permission needed when targeting Android 13 -->
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application>
+
+        <!-- REAL AD ID -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_application_id" />
+
+
+        <!-- Exclude sdk_gwear_g3_x86 ( smart watches sdk ) causing errors in google play console -->
+        <uses-library android:name="com.google.android.gms.wearable" android:required="false" />
+
+    </application>
+
+</manifest>

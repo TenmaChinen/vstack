@@ -1,0 +1,19 @@
+<resources>
+    <!-- LEVEL SELECTOR -->
+    <string name="intro_level_selector_world_selector">Select different worlds by tapping here!</string>
+    <string name="intro_level_selector_remaining_totems">This are your remaining totems\n\nYou will keep a different amount depending on selected difficulty mode.</string>
+
+    <!-- IN GAME -->
+    <string name="intro_in_game_tap_canvas">Stop the block by tapping anywhere in the game zone.\n\nStack it on top of the previous one to reach the top!</string>
+    <string name="intro_in_game_press_back">Use the back button to return to the\nLevel Selector\nat any time.</string>
+
+    <!-- DIALOG RETRY -->
+    <string name="intro_dialog_retry_restart_button">Restart the level by tapping here.</string>
+    <string name="intro_dialog_retry_retry_button">Continue from your last stacked block by using one totem.</string>
+    <string name="intro_dialog_retry_reward_button">You run out of totems!\nTap here to get extra totems by watching a video\n(internet connection needed)</string>
+
+    <!-- DIALOG WINNER -->
+    <string name="intro_dialog_winner_new_record">Congratulations\nLevel Clear!\n\nYou will get extra totems after beat a new level or your\nlast record</string>
+    <string name="intro_dialog_winner_extra_tries">Level:\n\n+1 Easy\n+2 Medium\n+3 Hard\n\nWorld:\n\n+10 Easy\n+15 Medium\n+20 Hard</string>
+
+</resources>
