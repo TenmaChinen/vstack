@@ -1,4 +1,4 @@
 /build
 
 # Sensitive Data
-AdmobManager/src/release/res/values/strings.xml
+src/release/res/values/strings.xml
